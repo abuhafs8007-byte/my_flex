@@ -1,0 +1,709 @@
+body{
+    background-color: rgb(235, 235, 235);
+    color: black;
+    box-sizing: border-box;
+    margin: 10pt 15pt;
+}
+
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 10pt;
+    flex-wrap: ;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 35px;
+}
+
+.Listing{
+    padding: 5pt 13pt;
+    background-color: green;
+    color: white;
+    border-radius: 10pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Listings{
+    padding: 10pt 1pt;
+    background-color: green;
+    color: white;
+    border-radius: 10pt;
+}
+
+ .child1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .ph-flower-tulip{
+    font-size: 2em;
+    color: green;
+    font-weight: bolder;
+ }
+
+ .ph-house{
+    font-size: 15pt;
+    color: green;
+ }
+
+header h1{
+    font-size: 24pt;
+    margin-left: 10pt;
+    color: green;
+    font-weight: bolder;
+    position: relative;
+}
+
+select {
+  width: 100px;
+  padding: 10px 25px ;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  font-size: 15px;
+  color: #000000;
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='gray' height='16' viewBox='0 0 24 24' width='16' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>") disabled;
+  background-repeat: repeat;
+  background-position: left 10px ;
+  z-index: ;
+}
+
+select:focus {
+  border-color: green;
+  box-shadow: 0 0 5px green;
+  border: none;
+}
+
+a:hover{
+    color: green ;
+    font-weight: bold ;
+    border: 0;
+    text-decoration: underline;
+}
+
+.Listing:hover{
+    color: green;
+    font-weight:300 ;
+    border: 0;
+    text-decoration: underline;
+    background-color: white;
+    border: 2px solid green;
+}
+
+.Listings:hover{
+    color: green;
+    font-weight:300 ;
+    border: 0;
+    text-decoration: underline;
+    background-color: white;
+}
+
+
+a{
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    font-size: 12pt;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    appearance:none;          /* Removes default arrow (standard) */  
+}
+
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    flex-flow: row wrap;
+    margin: 10px 0px;
+}
+
+
+.img1{
+    max-width: 300px;
+}
+
+.img2{
+    max-width: 0px disabled /* automatically*/;
+}
+
+img{
+    display: flex;
+    flex-flow: row;
+}
+
+.section-1a{
+    max-width: 70%;
+}
+
+.section-1b{
+    max-width: 30%;
+    display: flex;
+    position: relative;
+    flex-direction: row-reverse;
+}
+
+.section-1bi{
+    display: flex;
+    position: absolute;
+    top: 220px;
+    right: 220px;
+}
+
+.Estate{
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: ;
+    color: green;
+}
+
+button{
+    padding: 10pt 40pt;
+    margin: 10pt 10pt 0pt 0pt disabled;
+    background-color: green;
+    color: white;
+    border-radius: 10pt;
+    font-size: 10pt;
+    font-weight: bolder;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+button:hover{
+    color: green;
+    font-weight:300 ;
+    border: 0;
+    text-decoration: none;
+    background-color: rgb(216, 216, 216);
+    border: 2px solid green;
+    transform: translateY(-5px) disabled;
+}
+
+.section-2{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 60px 0px 10pt 0;
+    background-color: white;
+    flex-flow: row wrap;
+    border-radius: 7px;
+    align-content: center;
+    padding: 10px;
+}
+
+.section-3{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 2em;
+    background-color: white;
+    padding: 20px 0;
+}
+
+.Commercial{
+    max-width: 50%;
+    font-family: ;
+}
+
+.section-4{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex: 1;
+    background-color: white;
+}
+
+.section-4a{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    background-color: white;
+    padding: 20px;
+    margin: 10pt 0;
+    font-size: 1.2em;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 15pt;
+}
+
+.section-4a:hover{
+    transform: translateY(-10px);
+}
+
+.ph-user-circle-plus, .ph-user-gear, .ph-user-switch{
+    color: green;
+    font-size: 1.7em;
+    margin: 0;
+    background-color: #a7e4c3;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    font-weight: 900;
+    border-radius: 50%;
+}
+
+.section-5{
+    display: flex;
+    justify-content: space-around disabled;
+    align-content: center;
+    margin: 40px 0px;
+    flex-flow: row wrap;
+    gap: 200px;
+}
+
+.section-5a{
+    max-width: 50%;
+}
+
+.section-5b{
+    max-width: 40%;
+}
+
+.house-container1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+}
+
+.house-container2{
+    position: absolute;
+    top: 400px;
+    left: 400px;
+}
+.img2{
+    max-width: 500px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.img3{
+    max-width: 200px;
+    border-radius: 20px;
+    z-index: 3;
+}
+
+.child8{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(235, 235, 235);
+    border: 3px ;
+    border-bottom: 3px solid green;
+    border-left: 3px solid green;
+    z-index: 0;
+    top: 250px;
+    left: 97px;
+}
+
+.child9{
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    z-index: 2;
+    background-color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-bottom: 3px solid green;
+    border-right: 3px solid green;
+    width: 180px;
+}
+
+span{
+    font-size: 3rem;
+    color: green;
+    float: left;
+}
+
+h5{
+    font-size: 1.10rem;
+    color: green;
+}
+
+h6{
+    font-size: 2rem;
+    margin: 0;
+}
+
+.duplex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.duplex1, .duplex2{
+    max-width: 20%;
+}
+
+.ph-user, .ph-users{
+    color: green;
+    font-size: 2rem;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.ph-user{
+    border-top: 5px solid green;
+}
+
+.ph-users{
+    border-bottom: 5px solid green;
+}
+summary{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    background-color: green;
+    padding: 20px;
+    width: 25% disabled;
+    border-radius: 10px;
+}
+
+summary:hover{
+    cursor: pointer;
+}
+
+.duplex1, .duplex2{
+    display: flex;
+}
+
+@media (max-width:1000px){
+    header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 10pt;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    width: auto;
+}
+
+    header h1{
+    font-size: 16pt;
+    margin-left: pt;
+    color: green;
+    font-weight: bolder;
+    position: relative;
+}
+
+    select{
+  width: 80px;
+  padding: 5px 15px ;
+  border: 1px solid #ccc disabled;
+  border-radius: 10px;
+  background-color: #fff;
+  font-size: 10px;
+  color: #000000;
+  cursor: pointer;
+}
+
+    .container2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.Listing, .Listings{
+    padding: 3pt 7pt;
+    background-color: green;
+    color: white;
+    border-radius: 10pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Listings{
+    padding: 10pt 1pt disabled;
+    background-color: green;
+    color: white;
+    border-radius: 5pt;
+}
+
+
+ .child1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .ph-flower-tulip{
+    font-size: 10pt;
+    color: green;
+    font-weight: bolder;
+ }
+
+ .ph-house{
+    font-size: 13pt;
+    color: green;
+ }
+
+    .section-1{
+        font-size: 10pt;
+    }
+
+     a {
+        font-size: 10pt;
+    }
+
+    .section-1a{
+        font-size: 10pt;
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-1b{
+        max-width: 100%;
+        margin-left: 100px;
+}
+
+    button{
+    padding: 5pt 20pt;
+    margin: 10pt 10pt 0pt 0pt disabled;
+    background-color: green;
+    color: white;
+    border-radius: 10pt;
+    font-size: 5pt;
+    font-weight: bolder;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+button:hover{
+    color: green;
+    font-weight:900 ;
+    border: 0;
+    text-decoration: none;
+    background-color: rgb(216, 216, 216);
+    border: 1px solid green;
+    transform: translateY(-5px) disabled;
+}
+
+.section-2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 70px 0px 10pt 0;
+    background-color: white disabled;
+    flex-flow: row wrap;
+    border-radius: 3px;
+    align-content: center;
+    padding: 3px;
+}
+
+.section-3{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 10pt;
+    background-color: white;
+    padding: 10px 0;
+}
+
+.Commercial{
+    max-width: 70%;
+    font-family: ;
+}
+
+.section-4{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex: 1;
+    background-color: white;
+}
+
+.section-4{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    flex: 1;
+    background-color: white;
+}
+
+.section-4a{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+    margin: 10pt 0;
+    font-size: 10pt;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 10pt;
+}
+
+.section-4a:hover{
+    transform: translateY(-5px);
+}
+
+.ph-user-circle-plus, .ph-user-gear, .ph-user-switch{
+    color: green;
+    font-size: 1em;
+    margin: 0;
+    background-color: #a7e4c3;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 50%;
+}
+
+.section-5{
+    display: flex;
+    justify-content: space-around disabled;
+    align-content: center;
+    margin: 40px 0px;
+    flex-flow: row wrap;
+    gap: 100px;
+}
+
+.section-5a{
+    max-width: 100%;
+}
+
+.section-5b{
+    max-width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.house-container1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+}
+
+.house-container2{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+.img2{
+    max-width: 250px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.img3{
+    max-width: 100px;
+    border-radius: 10px;
+    z-index: 3;
+}
+
+.child8{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(235, 235, 235);
+    border: 1.5px ;
+    border-bottom: 1.5px solid green;
+    border-left: 1.5px solid green;
+    z-index: 0;
+    top: 125px;
+    left: 43.5px;
+}
+
+.child9{
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    z-index: 2;
+    background-color: white;
+    padding: 10px;
+    font-size: 10pt;
+    border-bottom: 1.5px solid green;
+    border-right: 1.5px solid green;
+    width: 90px;
+}
+
+span{
+    font-size: 1.5rem;
+    color: green;
+    float: left;
+}
+
+h5{
+    font-size: 1.10rem;
+    color: green;
+}
+
+h6{
+    font-size: 13pt;
+    margin: 0;
+}
+
+.duplex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.duplex1, .duplex2{
+    max-width: 40%;
+}
+
+summary{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    background-color: green;
+    padding: 10px;
+    width: 25% disabled;
+    border-radius: 5px;
+}
+
+summary:hover{
+    cursor: pointer;
+}
+
+.img1{
+    max-width: 250px;
+}
+
+.img0{
+    max-width: 100px;
+}
+.ph-flower-tulip{
+    font-size: 20pt;
+}
+
+.container2, .child7, .child6, .child5, .child4, .child3{
+    gap: 15px;
+    display: flex;
+}
+}
